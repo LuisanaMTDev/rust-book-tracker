@@ -1,0 +1,47 @@
+body {
+  font-family: monospace;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: gray;
+  margin-bottom: 0.45em;
+  padding: 0.1em;
+  /* flex-wrap: wrap; */
+}
+
+strong {
+  font-size: 1.3em;
+}
+
+select {
+  font-family: monospace;
+  margin-inline: 1em;
+  /*border: solid white 1px;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+
+/* SVG STYLE */
+svg {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.state-0 {
+  fill: brown;
+}
+
+.state-1 {
+  fill: orange;
+}
+
+.state-2 {
+  fill: green;
+}
